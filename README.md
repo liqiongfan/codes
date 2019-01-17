@@ -1,3 +1,3 @@
 # codes
 
-# Here are some code for WEB develop job.
+# Here are some codes for WEB develop job.
