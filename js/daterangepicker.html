@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<body>
+<input type="text" name="" style="width:300px" id="date">
+</body>
+<script type="text/javascript">
+$('#date').daterangepicker({
+	"timePicker12Hour":false,
+	"timePicker":true,
+	"locale": {
+        "format": "YYYY/MM/DD HH:mm:ss",
+        "separator": " - ",
+        "applyLabel": "确定",
+        "cancelLabel": "取消",
+        "fromLabel": "起始时间",
+        "toLabel": "结束时间",
+        "customRangeLabel": "自定义",
+        "daysOfWeek": [ "周日", "周一", "周二", "周三", "周四", "周五", "周六" ], 
+        "monthNames": [ "一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月" ],
+        "firstDay": 7
+    }
+});
+</script>
+</html>
